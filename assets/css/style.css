@@ -907,6 +907,10 @@ main {
  * skills 
  */
 
+.skill {
+  margin-top: 20px;
+}
+
 .skills-title {
   margin-bottom: 20px;
 }
