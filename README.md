@@ -1,44 +1,27 @@
-# vCard - Personal portfolio
+## How to Run the Project
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+This is a static portfolio site built with HTML, CSS, and JavaScript. You can run it in either of the following ways:
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+- **Option 1: Open directly in a browser**
+  1. Download or clone the project.
+  2. Open `index.html` in any modern web browser (Chrome, Firefox, Edge, Safari).
 
-## Demo
+- **Option 2: Use a simple local server (recommended)**
+  - **Using VS Code Live Server extension**
+    1. Open the project folder in VS Code.
+    2. Install the "Live Server" extension if you don't have it.
+    3. Right‑click `index.html` and select **"Open with Live Server"**.
+  - **Using Python (already installed on most systems)**
+    1. Open a terminal in the project folder.
+    2. Run one of the following commands:
+       - Python 3:
+         ```bash
+         python3 -m http.server 5500
+         ```
+       - Python (if `python3` is not available):
+         ```bash
+         python -m http.server 5500
+         ```
+    3. Open `http://localhost:5500` in your browser.
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-## License
-
-MIT
+Once the site is open in your browser, you can navigate through the portfolio pages and sections normally.
